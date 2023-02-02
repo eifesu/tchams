@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+}
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+input {
+  all: unset;
+}
+
+*{
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.fade-enter-active {
+  transition: opacity 1000ms ease-in;
+}
+.fade-exit-active {
+  transition: opacity 1000ms ease-in-out;
+}
+.fade-enter,
+.fade-exit-to {
+  opacity: 0;
+}
+
