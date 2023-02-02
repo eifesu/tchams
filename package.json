@@ -27,6 +27,7 @@
     "solid-icons": "^1.0.4",
     "solid-js": "^1.6.9",
     "solid-start": "^0.2.15",
+    "solid-start-netlify": "^0.2.18",
     "undici": "^5.15.1"
   },
   "engines": {
