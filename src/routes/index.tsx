@@ -108,7 +108,6 @@ function Vote() {
 			voter: id(),
 		});
 	}
-
 	return (
 		<main class="flex h-full w-full max-w-lg flex-col items-center justify-center gap-8 p-6 text-white">
 			<Title>Hello World</Title>
